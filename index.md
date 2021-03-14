@@ -12,6 +12,10 @@ I used linear model and found 5 predictors of mortality through a step-wise regr
 
 ### Interpreting the results 
 
+[Plot of Resident Death as explained by number of beds, non-compliance in targeted inspections, and number of resident advocacy councils](3D plot.JPG)
+[Plot of Resident Death as explained by profit motive](profitModel.JPG)
+[Regression Model coefficients](regressionCoeff.JPG)
+
 ### Methodology
 
 My methods were mainly data cleaning and web-scraping to integrate different data sources. I did the following
@@ -21,16 +25,3 @@ My methods were mainly data cleaning and web-scraping to integrate different dat
 3. Integrate and clean data (only 29 out of 514 long term care homes were excluded due to missing data) 
 4. Create linear model 
 
-
-[Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/raywoo32/biohacks2021.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
